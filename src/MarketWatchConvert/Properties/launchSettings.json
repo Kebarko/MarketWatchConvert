@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MarketWatchConvert": {
+      "commandName": "Project",
+      "commandLineArgs": "MarketWatch___1637845577.csv"
+    }
+  }
+}

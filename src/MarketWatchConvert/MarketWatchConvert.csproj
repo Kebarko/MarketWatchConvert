@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyVersion>1.0.*</AssemblyVersion>
+		<ApplicationIcon>money.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Deterministic>False</Deterministic>
+		<GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyInformationalVersionAttribute>False</GenerateAssemblyInformationalVersionAttribute>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<Deterministic>False</Deterministic>
+		<GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+		<GenerateAssemblyInformationalVersionAttribute>False</GenerateAssemblyInformationalVersionAttribute>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="money.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="TextCopy" Version="6.2.1" />
+	</ItemGroup>
+
+</Project>
