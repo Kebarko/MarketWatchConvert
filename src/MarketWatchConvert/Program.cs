@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using TextCopy;
 
-namespace MarketWatchConvert;
+namespace KE.MarketWatchConvert;
 
 /// <summary>
 /// This program reads scraped data from MarketWatch and produces the required output.
