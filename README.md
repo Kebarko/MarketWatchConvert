@@ -6,7 +6,7 @@ Converts scraped data from the MarketWatch watchlist to the desired format.
 
 ## Requirements
 
-```.NET 8.0```
+```.NET 10```
 
 ## Installation
 
