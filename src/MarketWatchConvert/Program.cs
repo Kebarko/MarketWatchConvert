@@ -38,7 +38,7 @@ internal class Program
 
             foreach (List<string> record in records)
             {
-                double value = double.Parse(Regex.Replace(record[1], @"^\D+", string.Empty), CultureInfo.InvariantCulture);
+                double value = double.Parse(Regex.Replace(record[1], @"^\D+|\D+$", string.Empty), CultureInfo.InvariantCulture);
                 double change = 0;
                 if (record[3] == "Open")
                 {
